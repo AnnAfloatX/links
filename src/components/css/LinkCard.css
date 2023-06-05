@@ -1,0 +1,104 @@
+.link-card {
+  display: flex;
+  flex-direction: row;
+  min-width: 350px;
+  justify-content: space-between;
+  /* border-style: solid;
+  border-radius: 10px; */
+  margin: 5px;
+  padding: 10px;
+  border-width: 2px;
+  /* background-image: url("../../../public/glimmer-blue-background.jpg"); */
+  /* background-color: ; */
+  font-family: 'Bree Serif', serif;
+}
+
+.link-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 13px;
+}
+
+.link-info {
+  display: flex;
+}
+
+.link-type {
+  font-size: 13px;
+  /* background-color: rgb(204, 204, 204); */
+  padding-left: 4px;
+  padding-right: 4px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  /* height: 16px; */
+  line-height: 120%;
+}
+
+.link-title {
+
+}
+
+.link-time {
+  padding-right: 4px;
+  font-size: 13px;
+}
+
+.link-loc {
+  font-size: 11px;
+}
+
+.link-button {
+  display: flex;
+  align-items: center;
+}
+
+.button-text{
+  font-size: 13px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  line-height: 100%;
+  border-radius: 8px;
+  /* border-style: solid;
+  border-width: 1px; */
+  /* background-color: rgb(182, 182, 182); */
+  background-color: rgb(181, 0, 0);
+  color: white
+}
+
+a {
+  background-color: #f4f7fe;
+  border-radius: 30px;
+  border-color: white;
+}
+
+a:hover .button-text{
+  background-color: rgb(181, 0, 0);
+  color: white;
+}
+
+a:active .button-text{
+  background-color: rgb(181, 0, 0);
+  color: white;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+  border-style: solid;
+  border-width: 2px;
+  background-color: #eaf1fd;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black
+}

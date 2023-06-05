@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+  background-color: #eaf1fd;
+  height: 100vh;
+  font-family: "Trirong", serif;
+}
+
+#namespace {
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+
+#name {
+  font-size: 23px;
+  padding: 10px;
+  /* font-family: 'Playfair Display', serif; */
+  /* font-family: 'Noto Serif', serif; */
+  /* font-family: "Sofia", sans-serif; */
+  /* font-family: 'Playfair', serif; */
+  /* font-family: 'Quattrocento', serif; */
+  /* font-family: 'Josefin Slab', serif; */
+  font-family: 'Yeseva One', cursive;
+}
