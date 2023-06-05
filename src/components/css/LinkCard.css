@@ -52,6 +52,7 @@
 .link-button {
   display: flex;
   align-items: center;
+  padding-right: 13px;
 }
 
 .button-text{
