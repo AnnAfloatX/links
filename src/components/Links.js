@@ -7,7 +7,15 @@ function Links() {
   return (
     <div id='links'>
       {
-        links.map(({id, title, type, day, time, location, buttonLink, buttonText})=> {
+        links.map(({id, title, type, day, time, date, location, buttonLink, buttonText})=> {
+          let expired = false
+          if(type === 'Performance') {
+            const now = new Date()
+            const performanceDate = new Date(date)
+            if(now > performanceDate) {
+              expired = true
+            }
+          }
           return( 
             <LinkCard 
               key={id}
@@ -17,7 +25,8 @@ function Links() {
               time={time}
               location={location}
               buttonLink={buttonLink}
-              buttonText={buttonText}
+              buttonText={expired ? 'Expired' : buttonText}
+              expired={expired}
             />
           )
         })

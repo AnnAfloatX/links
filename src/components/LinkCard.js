@@ -1,7 +1,6 @@
 import './css/LinkCard.css'
 
-function LinkCard({title, type, day, time, location, buttonLink, buttonText}) {
-  console.log(location)
+function LinkCard({title, type, day, time, location, buttonLink, buttonText, expired}) {
   return (
     <a href={buttonLink} className='link-card'>
       <div className='link-main'>
@@ -9,7 +8,7 @@ function LinkCard({title, type, day, time, location, buttonLink, buttonText}) {
         <div className='link-loc' href={location.map}>{location.name}</div>
       </div>
       <div className='link-button' href={buttonLink}>
-        <div className='button-text'>{buttonText}</div>
+        <div className={expired ? 'button-text-expired' : 'button-text'}>{buttonText}</div>
       </div>
     </a>
   )
