@@ -5,6 +5,31 @@
   font-family: "Trirong", serif;
 }
 
+#avatar-wrap {
+  position: relative;
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+}
+
+#avatar-wrap img {
+  vertical-align: middle;
+  width: 96px;
+  height: 96px;
+}
+
+.helper {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+#avatar-wrap svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 #namespace {
   padding-top: 60px;
   margin-bottom: 20px;
