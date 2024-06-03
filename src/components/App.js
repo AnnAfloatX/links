@@ -12,7 +12,9 @@ function App() {
             <circle cx="55" cy="55" r="53" stroke="white" fill="none" stroke-width="2"/>
           </svg>
         </div>
-        <div id="name">Ann Afloat</div>
+        <div id="logo-wrap">
+          <img id="logo" src={process.env.PUBLIC_URL + "/logo2.png"} alt="logo"/>
+        </div>
       </div>
       <Links />
     </div>

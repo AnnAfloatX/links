@@ -12,6 +12,11 @@
   height: 110px;
 }
 
+#logo {
+  padding-top: 10px;
+  width: 150px;
+}
+
 #avatar-wrap img {
   vertical-align: middle;
   width: 96px;

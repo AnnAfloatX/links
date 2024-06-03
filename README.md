@@ -1,0 +1,1 @@
+`npm start` to start running on localhost
