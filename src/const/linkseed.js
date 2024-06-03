@@ -28,7 +28,7 @@ export const links = [
     day: 'Monday',
     time: '10:30am',
     location: locations.fullcircle,
-    buttonLink: `https://www.fullcirclebrooklyn.com/class-schedule%23/class-schedule/r/1296?trainer=5214`,
+    buttonLink: `https://www.fullcirclebrooklyn.com/class-schedule#/class-schedule/r/1296?trainer=5214`,
     buttonText: 'Sign up'
   },
   {
@@ -38,7 +38,7 @@ export const links = [
     day: 'Saturday',
     time: '1:00pm',
     location: locations.fullcircle,
-    buttonLink: `https://www.fullcirclebrooklyn.com/class-schedule%23/class-schedule/r/1296?trainer=5214`,
+    buttonLink: `https://www.fullcirclebrooklyn.com/class-schedule#/class-schedule/r/1296?trainer=5214`,
     buttonText: 'Sign up'
   },
 ]
